@@ -15,7 +15,7 @@
       </div>
       <div class="info">
         <h1>山田太郎</h1>
-        <p><?php echo 'こんにちは！'; ?></p>
+        <p><?php echo 'こんにちは！' . date('l'); ?></p>
         <ul>
           <li>
             <a href="https://dotinstall.com" target="_blank">
