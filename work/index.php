@@ -1,8 +1,18 @@
 <?php
 
-$message = 'ようこそ！' . date('l'); ?>
+$n = mt_rand(1, 3);
 
+if ($n === 1) {
+  $message = "UI/UXデザイナー見習いです。";
+}
+elseif ($n === 2) {
+  $message = "プログラミングを勉強中です。";
+}
+else {
+  $message = "PHPちょっと分かります。";
+}
 
+?>
 <!DOCTYPE html>
 <html lang="ja">
 <head>
