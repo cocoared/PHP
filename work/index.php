@@ -3,15 +3,12 @@
 $n = mt_rand(1, 3);
 
 if ($n === 1) {
-  $message = "UI/UXデザイナー見習いです。";
+    $message = '<script>alert(1);</script>UI/UXデザイナー見習いです。';
+} elseif ($n === 2) {
+    $message = 'プログラミングを勉強中です。';
+} else {
+    $message = 'PHPちょっと分かります。';
 }
-elseif ($n === 2) {
-  $message = "プログラミングを勉強中です。";
-}
-else {
-  $message = "PHPちょっと分かります。";
-}
-
 ?>
 <!DOCTYPE html>
 <html lang="ja">
@@ -30,7 +27,7 @@ else {
       </div>
       <div class="info">
         <h1>山田太郎</h1>
-        <p><?= $message ?></p>
+        <p><?= htmlspecialchars($message, ENT_QUOTES, 'UTF-8') ?></p>
         <ul>
           <li>
             <a href="https://dotinstall.com" target="_blank">
