@@ -1,5 +1,6 @@
-<?php 
-include("_header.php");
+<?php
+$title = '';
+include '_header.php';
 ?>
   
     <section>
@@ -22,5 +23,4 @@ include("_header.php");
       <p>楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。</p>
       <a href="memory.php">もっと見る</a>
     </section>
-<?php 
-include("_footer.php");
+<?php include '_footer.php';

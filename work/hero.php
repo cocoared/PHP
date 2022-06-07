@@ -1,5 +1,6 @@
 <?php
-include '_header.php'; 
+$title = '勇者ゲーム-';
+include '_header.php';
 ?>
 
     <section>
