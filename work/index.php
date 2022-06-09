@@ -23,4 +23,11 @@ include '_header.php';
       <p>楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。楽しいアプリです。</p>
       <a href="memory.php">もっと見る</a>
     </section>
+
+    <section>
+      <img  src="img/janken.png" width="400" height="260" alt="じゃんけんゲームの紹介画像">
+      <h1>じゃんけんゲーム</h1>
+      <p>面白いよ</p>
+      <a href="janken.php">もっと見る</a>
+    </section>
 <?php include '_footer.php';
