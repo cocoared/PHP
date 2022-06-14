@@ -7,7 +7,7 @@
       <div class="d-flex justify-content-center">
         <img src="img/janken.png" width="400" />
       </div>
-      <form class="d-flex justify-content-center" method="post" action="game.php">
+      <form class="d-flex justify-content-center" method="post" action="jankengame.php">
         <div class="mt-3 col-5">
           <label for="user_name" class="form-label">ユーザー名</label>
           <input type="text" class="form-control" id="user_name" name="user_name">
